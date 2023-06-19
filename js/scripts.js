@@ -127,3 +127,8 @@ function accordionToggle(target, description, other, otherDescription){
     otherDescription.stop().slideUp(300);
   }
 };
+
+// 맨 위로 이동 버튼
+let moveToTop = function () {
+  document.body.scrollIntoView({ behavior: "smooth" });
+};

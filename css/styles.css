@@ -11214,7 +11214,7 @@ body {
   display: inline-block;
   margin-bottom: 17px;
   width: 110px;
-  font-size: 22px;
+  font-size: 17px;
   font-family: "GmarketBold";
   color: #6a75ca;
 }
@@ -11223,11 +11223,12 @@ body {
 }
 .txt-about dd {
   display: inline-block;
-  font-size: 22px;
+  font-size: 17px;
 }
 .btn-about {
-  margin: 45px 0 0 20px;
+  margin: 0 0 0 10px;
 }
+
 .btn-about button {
   width: 120px;
   height: 120px;
@@ -11346,4 +11347,21 @@ h1.h1 {margin-bottom: 30px; font-size: 24px; font-weight: bold; text-align: cent
 }
 @media (max-width:500px) {
   .accordion-list .accordion-item .item-button {padding: 20px 10px;}
+}
+
+/* moveTop 버튼 */
+.btn-moveTop {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  width: 65px;
+  height: 65px;
+  background-image: url(../src/img/btn-moveTop.png);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn-moveTop:hover {
+  background-image: url(../src/img/btn-moveTop-hover.png);
+  transition: 0.5s ease-out;
 }
