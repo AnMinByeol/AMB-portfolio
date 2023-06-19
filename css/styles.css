@@ -247,7 +247,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #c52754;
   text-decoration: underline;
 }
 a:hover {
@@ -4418,7 +4418,7 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  color: var(--bs-accordion-color);
+  color: black;
   background-color: var(--bs-accordion-bg);
   border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
@@ -11336,9 +11336,9 @@ h1.h1 {margin-bottom: 30px; font-size: 24px; font-weight: bold; text-align: cent
 .accordion-list .accordion-item .accordion-desc .desc-title::before {content: ""; display: inline-block; position: absolute; top: 4px; left:0; width: 5px; height: 5px; border-radius: 50%; background-color: #666;}
 .accordion-list .accordion-item .accordion-desc .desc-title:not(:first-child) {margin-top: 25px;}
 .accordion-list .accordion-item .accordion-desc .list-1st li {position: relative; padding-left: 15px; font-size: 15px; color: #666;}
-.accordion-list .accordion-item .accordion-desc .list-1st li::before {content: "\e93f"; display: inline-block; position: absolute; top: 4px; left: 0; font-family: xeicon; font-size: 15px; color: #666;}
+.accordion-list .accordion-item .accordion-desc .list-1st li::before {display: inline-block; position: absolute; top: 4px; left: 0; font-family: xeicon; font-size: 15px; color: #666;}
 .accordion-list .accordion-item .accordion-desc .list-1st li:not(:last-child) {margin-bottom: 5px;}
-.accordion-list .accordion-item .accordion-desc .list-1st li .link {color: #999; transition: all 0.3s;}
+.accordion-list .accordion-item .accordion-desc .list-1st li .link {color: #c52754;; transition: all 0.3s;}
 .accordion-list .accordion-item .accordion-desc .list-1st li .link:hover {color: #000;}
 .accordion-list .accordion-item .accordion-desc .list-1st li .link i {position: relative; top: 1px;}
 @media (max-width:767px) {
